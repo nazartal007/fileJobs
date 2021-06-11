@@ -1,13 +1,11 @@
 package tests;
 
-import com.codeborne.pdftest.PDF;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
 
-import static com.codeborne.pdftest.PDF.containsText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static org.hamcrest.MatcherAssert.assertThat;
