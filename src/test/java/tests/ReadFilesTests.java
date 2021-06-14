@@ -12,7 +12,7 @@ import static utils.Files.getTextFromFile;
 import static utils.Zip.unzipWithPassword;
 import static utils.Zip.unzipWithoutPassword;
 
-public class readFilesTests {
+public class ReadFilesTests {
     @Test
     public void txtTest() throws IOException, TikaException {
         String txtFilePath = "./src/test/resources/files/1.txt",
